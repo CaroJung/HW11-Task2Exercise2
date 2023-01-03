@@ -2,7 +2,7 @@ name: SonarCloudScan
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   sonarCloudTrigger:
     name: SonarCloud Trigger
